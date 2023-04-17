@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct XCAChatGPTTVApp: App {
     
-    @StateObject var vm = ViewModel(api: ChatGPTAPI(apiKey: "API_KEY"), enableSpeech: true)
+    @StateObject var vm = ViewModel(api: ChatGPTAPI(apiKey: "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"), enableSpeech: true)
     
     @FocusState var isTextFieldFocused: Bool
     
